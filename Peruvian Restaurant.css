@@ -1,0 +1,460 @@
+/*Custom HTML and CSS (frameworks like Bootstrap or Materialize are NOT allowed)*/
+/*Proper layout of elements. The page should look like a real website*/
+/*Do you use classes and id’s correctly*/
+/*Can you work with different CSS selectors*/
+/*Can you use the CSS property “float” correctly*/
+/*Do you include anything extra that you’ve learned outside the KhanAcademy course (e.g. JavaScript,  media responsiveness, advanced CSS)*/
+
+
+
+/*Formating the header and van-bar*/
+
+#header{
+  /* The image used */
+  background-image: url("https://www.chimuadventures.com/blog/wp-content/uploads/2017/09/shutterstock_615054509.jpg");
+  
+  min-height: 150px;
+
+  /* Center and scale the image*/
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin-top: 0px;
+  width: 100%;
+  
+}
+
+/* Position the navbar container inside the image */
+#header_container {
+  position: fixed;
+  width: 95%;
+  }
+
+/* nav-bar */
+#van-bar {
+  position:fixed;
+  overflow:hidden;
+  background-color:hsl(180, 90%, 20%);
+  box-shadow: 0px 1px 1px 1px rgb(110, 189, 92);
+  border-radius:10px;
+  width: 90%;
+  z-index: 5;
+ 
+  
+  
+}
+
+/* Navbar links */
+#van-bar a {
+  float: left;
+  color: rgb(252, 252, 252);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
+  overflow:hidden;
+  z-index:5;
+  
+ 
+}
+
+#van-bar :hover {
+  background-color: rgb(184, 236, 206);
+  color:black;
+  font-style:oblique;
+  text-decoration:underline;
+  font-weight: bold;
+    
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .nav-link a {
+    float: none;
+    display: block;
+  }
+}
+
+
+  .logo_foto{
+    position: relative;
+    left: 650px;
+    top:55px;
+    border-radius: 150%;
+  }
+
+@media screen and (max-width: 500px) {
+  #header_container{
+    float: none;
+    display: block;
+  }
+}
+    
+/* body */ 
+
+@media screen and (max-width: 500px) {
+  #main{
+    float: none;
+    display: block;
+  }
+}
+body{
+  width: 90%;
+  margin:auto;
+}
+
+h1{
+  display:flex;
+  width: 70%;
+  margin:auto;
+  margin-top: 60px;
+  text-align: center;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: medium;
+  font-style: italic;
+  color:darkgreen;
+}
+
+/* I can make an animation here*/
+#selling_text{
+  display: flexbox;
+  width: 80%;
+  margin:auto;
+  margin-top:40px;
+  font-style: italic;
+  text-align: center;
+  color:darkgreen;
+
+}
+
+
+.ecological_certificated{
+  font-weight: bolder;
+  font-size:medium;
+  text-decoration: underline;
+}
+
+    #peruvian_chef{
+  text-align: center;
+  font-size: small;
+  font-style: italic;
+  }
+  audio{
+    margin:20px 0px 10px 500px;
+    width: 28%;
+  }
+  
+  h2{
+    font-size:28px;
+    background-color: hsl(180, 90%, 20%);
+    color:white;
+    margin-top: 150px;
+    opacity: 0.7;
+    border-radius: 5px;
+  }
+
+  #map_responsive{
+    margin:20px 0px 10px 500px;
+    width: 28%;
+
+  }
+  
+  /*pictures and table formating*/
+    .starters{
+      background-color:rgb(165, 42, 58);
+      width: 85%;
+      margin:auto;
+      text-align: center;
+      color:white;
+      font: optional;
+      margin-top:40px;
+      border-radius: 5px;
+    }
+      #images_starters{
+      display:flex;
+      height: auto;
+      width: 100%;
+      flex-direction: row;
+      justify-content:center;
+      text-align: center;
+      
+
+      }
+        .entrada{
+          margin: 20px 20px 20px 20px;
+        }
+
+  .tabla_entradas{
+    width: 500px;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 40px;
+    content: normal;
+    border-color: bisque;
+    border-width:2px;
+    border-style: solid;
+
+  }
+ 
+.main_course{
+  background-color:rgb(165, 42, 58);
+      width: 85%;
+      margin:auto;
+      text-align: center;
+      color:white;
+      font: optional;
+      margin-top:40px;
+      border-radius: 5px;
+}
+
+.images_main{
+  display:flex;
+      height: auto;
+      width: 100%;
+      flex-direction: row;
+      justify-content:center;
+      text-align: center;
+}
+
+      .main{
+        margin: 20px 20px 20px 20px;
+      }
+  #tabla_main{
+    width: 500px;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 40px;
+    content: normal;
+    border-color: bisque;
+    border-width:2px;
+    border-style: solid;
+  }
+
+
+  #titule_dessert{
+    background-color:rgb(165, 42, 58);
+      width: 85%;
+      margin:auto;
+      text-align: center;
+      color:white;
+      font: optional;
+      margin-top:40px;
+      border-radius: 5px;
+  }
+
+  #imagenes_desserts{
+    display:flex;
+      height: auto;
+      width: 100%;
+      flex-direction: row;
+      justify-content:center;
+      text-align: center;
+  }
+
+ 
+        .desserts{
+          margin: 20px 20px 20px 20px;
+        }
+
+  #tabla_desserts{
+          width: 500px;
+          flex-direction: row;
+          margin:auto;
+          margin-top: 40px;
+          content: normal;
+          border-color: bisque;
+          border-width:2px;
+          border-style: solid;
+        }
+
+
+.titulo_cockteles{
+  background-color:rgb(165, 42, 58);
+      width: 85%;
+      margin:auto;
+      text-align: center;
+      color:white;
+      font: optional;
+      margin-top:40px;
+      border-radius: 5px;
+}
+
+
+#images_cocktels{
+  display:flex;
+    height: auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content:center;
+    text-align: center;
+}
+
+
+    .cockteles_peruanos{
+      margin: 20px 20px 20px 20px;
+    }
+
+
+
+    #table_cocktels{
+      width: 500px;
+          flex-direction: row;
+          margin:auto;
+          margin-top: 40px;
+          content: normal;
+          border-color: bisque;
+          border-width:2px;
+          border-style: solid;
+    }
+
+
+   /*formating order*/
+
+   #order{
+      background-color:rgb(165, 42, 58);
+      width: 50%;
+      margin:auto;
+      text-align: center;
+      color:white;
+      font: optional;
+      margin-top:40px;
+      border-radius: 5px;
+   }
+
+#socios{
+width: 30%;
+margin:auto;
+text-align:center;
+color:white;
+font: optional;
+margin-top:40px;
+border-radius: 5px;
+line-height: 25px;}
+
+#about_us{
+  width: 70%;
+  margin:auto;
+  text-align:center;
+  color:black;
+  font: optional;
+  margin-top:40px;
+  border-radius: 5px;
+  line-height: 25px;}
+
+
+#booking{
+  display:block;
+  width: 70%;
+  height: auto;
+  background:rgb(21, 112, 21);
+  color: white;
+  margin:auto;
+  text-align: center; 
+}
+
+
+#booking_date{
+  width: 100%;
+  height:auto;
+  margin:20px 10px 10px 10px;
+  padding:0px 2px 20px 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+  
+}
+
+#time{
+  width: 100%;
+  height:25px;
+  margin:20px 10px 10px 10px;
+  padding:0px 2px 20px 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+}
+
+#number_person{
+  width: 100%;
+  height:25px;
+  
+  margin:20px 10px 10px 10px;
+  padding:0px 2px 20px 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+}
+
+#comment{
+  width: 100%;
+  height:80px;
+  
+  margin:20px 10px 10px 10px;
+  padding:0px 2px 20px 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+}
+
+#submit_booking{
+  width: 30%;
+  height:35px;
+  margin:20px 10px 10px 10px;
+  padding:0px 2px 20px 2px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: aliceblue;
+  border-width: 2px;
+  background-color: coral;
+}
+label{
+  margin-top:50px;
+}
+
+
+/* author */
+
+#author{
+  width: 100%;
+  margin:auto;
+ 
+  
+}
+
+  #parrafo_video{
+    display: flex;
+    height:auto;
+  }
+
+    #video{
+      float: left;
+        width: 40%;
+        margin-right: 100px;
+        }
+    
+    #texto_edwin{
+      float: right;
+        width: 40%;
+        margin: auto;
+        margin-top: 20px;
+        text-align: justify;
+
+    }
+
+#contact{
+  text-align: center;
+  text-decoration: double;
+  text-decoration: wavy;
+  background-color: hsl(180, 90%, 20%);
+  line-height: 35px;
+  font-size: 25px;
+  padding-top: 40px;
+  margin-top: 80px;
+  height: 300px;
+  color:white;
+}
