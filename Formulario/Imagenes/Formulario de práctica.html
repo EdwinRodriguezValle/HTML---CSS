@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/formulario.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de práctica</title>
+
+
+<!--Por medio de link se puede interconectar archivos. Link sirve para iterconectar archicos y en este caso es dentro del mismo proyecto-->
+    
+
+
+
+<style></style><link rel="stylesheet" href="./Formulario de práctica_files/formulario.css"></head>
+
+<body>
+    <div class="container">
+
+        <header class="header">
+            <h4 id="Encuesta" class="Text-Center"> <u>Encuesta de opinión</u></h4>
+
+    
+
+            <h2 id="title" class="Text-Center">
+               <i>Efectos secundarios de los video juegos en niños y adolecentes</i>
+            </h2>
+            <hr>
+<!--User Story #2: I can see a short explanation with id="description" in P sized text. -->
+            <p id="description" class="description text-center"> <i>Gracias por tomarse el tiempo para colaborar con nuestra investigación. Esto nos permitirá producir información adecuada para regular nuestras políticas de la empresa.</i>
+            </p>
+        </header>
+<!--User Story #3: I can see a form with id="survey-form". action sirve para enviar la información del formulario a al servidor-->
+        <form form="" id="survey-form" name="formulario" method="post" action="http://127.0.0.1:5500/data.php">
+
+            <div>
+                <ul class="errorMessages"></ul>
+            </div>
+<!--User Story #4: Inside the form element, I am required to enter my name in a field with id="name". -->            
+
+<!--User Story #10: For the name, email, and number input fields inside the form I can see corresponding labels that describe the purpose of each field with the following ids: id="name-label", id="email-label", and id="number-label".-->
+
+<!--User Story #11: For the name, email, and number input fields, I can see placeholder text that gives me a description or instructions for each field.-->
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="name-label" class="from-control" placeholder="Nombre" size:"40"="" required="" maxlength="40"> 
+            </div><br>
+
+            <div class="form-group"> 
+                <label id="LastName-label">Last Name</label>
+                <br>
+                <input id="LastName-label" type="text" placeholder="Apellido" required="" disabled="" readonly="">
+
+            </div><br>
+
+           <div class="form-group">
+               <label id="number-label" for="number">Age</label>
+               <br>
+               <input id="number" type="number" name="Age" nin="10" max="100" class="form-control" placeholder="Edad" required="">
+           </div><br>
+
+           <div class="form-group">
+               <label for="sex-label">Sexo</label>    
+               <br>
+              <label><input id="sex-label" value="woman" type="radio" class="input-radio" name="sex-label"><em>woman</em></label>
+               <br>
+               <label><input id="sex-label" value="Man" type="radio" class="input-radio" name="sex-label"><em>Man</em></label>
+               <br>
+               <label><input id="sex-label" value="homosexual" type="radio" class="input-radio" name="sex-label"><em>homosexual</em></label>
+               <br>
+               <label> <input id="sex-label" value="transexual" type="radio" class="input-radio" name="sex-label"><em>transexual</em></label>
+            </div><br>
+ <!--User Story #5: Inside the form element, I am required to enter an email in a field with id="email".-->
+
+ <!-- User Story #6: If I enter an email that is not formatted correctly, I will see an HTML5 validation error. -->
+
+           <div>
+               <label id="email">Email</label><br>
+               <input id="email" mane="email" type="email" placeholder="Email" required="" class="from-control">
+
+           </div><br>
+<!--User Story #13: Inside the form element, I can select a field from one or more groups of radio buttons. Each group should be grouped using the name attribute.-->
+           <div class="form-group">
+               <label for="DoYouPlayGames-label">Do you play games</label>
+               <br>
+               <label> <input id="DoYouPlayGames-label" value="Yes, I do play" type="radio" name="DoYouPlayGames" checked=""> <em>Yes, I do play </em></label>
+               <br>
+               <label><input id="DoYouPlayGames" value="No, I do not play" type="radio" class="input-radio" name="DoYouPlayGames" checked=""><em>Not, I do not play</em></label>
+           </div><br>
+<!-- User Story #7: Inside the form, I can enter a number in a field with id="number". -->
+ <!--User Story #9: If I enter numbers outside the range of the number input, which are defined by the min and max attributes, I will see an HTML5 validation error-->
+
+           <div class="form-group">
+               <label id="number-VideGames" for="number">How many hours do you spend playing video-games per day?</label>
+               <br>
+               <input id="number-VideoGames" type="number" name="number-VideoGames" nin="1" max="15" class="form-control" placeholder="Horas dedicadas al video juego" required="">
+           </div><br>
+
+ <!--User Story #8: If I enter non-numbers in the number input, I will see an HTML5 validation error. -->
+
+ <!--User Story #12: Inside the form element, I can select an option from a dropdown that has a corresponding id="dropdown"-->
+           <div class="form-group">
+               <label for="dropdown-FavoriteDays">Which days do you play more often?</label>
+               <br>
+               <select id="dropdown-FavoriteDays" name="FavoriteDay" class="form-control" required="">
+                   <option disable="" selected="" value="">selection options</option>
+                   <option value="Monday">Monday</option>
+                   <option value="Tuesday">Tuesday</option>
+                   <option values="wednesday">Wednesday</option>
+                   <option value="Thrusday">Thursday</option>
+                   <option value="Friday">Friday</option>
+                   <option value="Saturday">Saturday</option>
+                   <option vlued="Sunday">Sunday</option>
+            </select>        
+           </div><br>
+
+           <div class="form-group">
+               <label for="dropdown-PartOfTheDays-Label">Which part of the day do you prefer to play mostly?</label>
+               <br>
+               <select id="dropdown-PartOfTheDays-Label" name="PartOfTheDay" class="form-control" required="">
+                   <option value="Moorning">Moorning</option>
+                   <option value="Afternoom">Afternoom</option>
+                   <option value="Evining">Evining</option>
+                   <option value="The entire day">The entire day</option>
+                   <option value="I don&#39;t mind"> I do not mind</option>
+
+               </select>
+           </div><br>
+<!--User Story #14: Inside the form element, I can select several fields from a series of checkboxes, each of which must have a value attribute.-->
+           <div class="form-group">
+               <label id="PreferedGame-label">Which are you prefered games? <span style="font-family: -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, Oxygen, Ubuntu, Cantarell, &#39;Open Sans&#39;, &#39;Helvetica Neue&#39;, sans-serif; font-size: small;"> <i>Multiple answer:</i> </span></label> <br>
+                
+                <label>
+                <input mane="Mycraft" value="Mycraft" type="checkbox" class="input-check"> Mycraft</label> <br>
+                
+                <label>
+                    <input mane="Overcook" value="Overcook" type="checkbox" class="input-check">               Overcook</label> <br>
+
+                <label>
+                    <input name="MotorRice" value="MotorRice" type="checkbox" class="input-check">
+                    Motor Rice</label> <br>
+
+                <label>
+                    <input name="CarRice" value="CarRice" type="checkbox" class="input-check">
+                    Motor Rice</label> <br>
+
+                <label>
+                    <input name="WarsBattle" value="WarsBattle" type="checkbox" class="input-check">
+                    Wars battle</label> <br>
+
+                <label>
+                    <input mane="Mario" value="Mario" type="checkbox" class="input-check">                    
+                    Mario</label> <br>
+
+                <label>
+                    <input name="Fornite" value="Fornite" type="checkbox" class="input-check">
+                    Fornite</label> <br <="" div="">
+<!--User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.-->
+           <div class="form-group">
+               <label for="comment">Write dawn if you have any comment?</label><br>
+               <textarea id="comment" class="input-tarea" name="comment" placeholder="Deja tus comentarios aquí" required=""></textarea>
+           </div><br>
+<!--User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.-->
+           
+           
+           <div>
+               <em>Attacht your additional documents</em><br>
+               <input type="file" name="fichero" id="fichero">
+           </div> <br>
+
+           <div>
+               <em>Write dawn the date-time</em><br>
+               <input type="datetime" name="fecha" id="fecha">
+           </div><br>
+
+           
+           <div>
+            <em>Clean the entire content of the form if it not working</em><br>
+                <input type="reset" name="reset" id="resetear" value="Reset">
+           </div> <br>
+            
+            <div class="form-group">
+                <em>Send your data</em><br>
+                <button id="Submit" type"submit"="">Submit</button>
+            </div><br>
+
+            <div>
+                <em>Search into the form</em><br>
+                 <input type="search" name="buscador" id="buscador" placeholder="buscar">
+             </div><br>
+
+    
+    
+</div></form>
+
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+ <br>
+<footer class="header-footer">Autor: Edwin Rodriguez Valle</footer>
+
+<!--
+    <method> =
+<get></get>--></div></body></html>

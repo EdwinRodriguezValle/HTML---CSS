@@ -1,0 +1,158 @@
+
+
+
+
+
+body{
+    background-color: rgb(157, 208, 152) !important;
+}
+
+header{
+    background-color: rgb(11, 11, 103);
+    color: white;
+    text-align: center;
+    margin: 15px 350px 15px 350px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: medium;
+    font-family:sans-serif;
+    
+}
+
+form{
+    background-color: rgb(43, 30, 115);
+    margin: 15px 350px 15px 350px;
+    border-radius:10px;
+    padding: 60px 60px 60px 60px;
+    color:white;
+    font-size:medium;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    color: rgb(230, 227, 227);
+
+    
+}
+
+h4{
+    
+    color:rgb(200, 0, 0);
+    padding: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    padding-bottom: 0px;
+}
+hr{
+    margin: 10px 0px 0px 0px;
+}
+
+.form-group{
+    padding: 5px 0px 5px 0px;
+    font-size: medium;
+    font-family:inherit;
+    width: 700px;
+    border-color: rgb(179, 163, 240);
+    border-width: 1px;
+    border-style:solid;
+
+}
+
+  .from-control{
+    width: 680px;
+    height: 40px;
+    border-color: rgb(241, 232, 231); border-width: 1px;
+    border-radius: 5px;
+    margin: 0px 7px 0px 5px;
+    border-style: solid;
+    
+}
+
+label{
+    margin: 0px 5px 0px 5px;
+    font-size:medium;
+    
+}
+.input-check{
+    width: 30px;
+    height: 30px;
+    border-width: 1px;
+    font-style: oblique;
+  }
+.input-tarea{
+    width: 680px;
+    height: 200px;
+    border-color: rgb(241, 232, 231); border-width: 1px;
+    border-radius: 5px;
+    margin: 0px 7px 0px 5px;
+    border-style: solid;
+}
+button{
+    width: 680px;
+    height: 50px;
+    font-size: larger;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 0px 7px 0px 5px;
+    border-style: solid;
+    background-color: rgb(118, 213, 71);
+}
+#buscador{
+    width: 300px;
+    height: 40px;
+    font-size: larger;
+    border-color: rgb(4, 72, 14); border-width: 1px;
+    border-radius: 5px;
+    margin: 0px 7px 0px 5px;
+    border-style: solid;
+    background-color: rgb(217, 248, 248);;
+    }
+#fecha{
+    width: 680px;
+    height: 40px;
+    border-color: rgb(241, 232, 231); border-width: 1px;
+    border-radius: 5px;
+    margin: 0px 7px 0px 5px;
+}
+#resetear{
+    width: 120px;
+    height: 30px;
+    font-size:medium;
+    margin: 0px 7px 0px 5px;
+    background-color: rgb(217, 248, 248);
+}
+
+#fichero{
+    width: 350px;
+    height: 30px;
+    font-size:medium;
+    margin: 0px 7px 0px 5px;
+    border-style: solid;
+    background-color: rgb(217, 248, 248);
+    color:black;
+}
+
+[type='radio'] {
+    margin: 10px 0px 10px 0px;
+    font: lighter;
+    width: 20px;
+    height:20px;
+}
+
+footer{
+    width: 800px;
+    height: 20px;
+    color:rgb(0, 0, 0) !important;
+    font-size:small;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 350px;
+    background-color: rgb(223, 255, 245) !important;
+}  

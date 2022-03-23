@@ -1,0 +1,149 @@
+.header-footer{
+    color:green; 
+    font-size: 20 px;
+    font-family:Brush Script MT;
+    margin-top: 15 px;
+    margin-bottom:15 px;
+    margin-right: 15 px;
+    margin-left: 15px;
+    padding-top: 10px;
+    padding-right: 0px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    text-align:center;
+}
+
+
+
+
+
+h1{
+    color: red;
+    font-size:50;
+    font-family: sans-serif;
+    text-align:center;}
+
+
+#FraseCelebreDeArguedas{
+    color: black;
+    font-size:15px;
+    font-family:ariel;
+    text-align:center;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin: 15px 300px 15px 300px;}
+
+
+h2{
+    color: black;
+    font-size:25px;
+    font-family: ,Lobster;
+    background-color:#70E8A7;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin-top:30px;
+    margin-right:0px;
+    margin-left:0px;
+    margin-bottom:20px;}
+
+
+P{      color: black;
+    font-size:16px;
+    font-family: ,Lobster;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin-top:40px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:20px;
+text-align: justify;
+}
+
+
+
+
+.imgen{
+    width:350px;
+    height:400px;
+    border-radius:80%;
+    margin: 0px 100px 5px 150px;
+        }
+    
+.imgen-ProblemaIndio{
+   width:250px;
+    height:350px;
+    border-color:;
+    background-color:#70E8A8;
+    border-width:8px;
+    border-style:double;
+    border-radius:80%;
+    margin: 0px 100px 5px 190px;
+
+        }
+
+
+.a{
+    color: blue;
+    font-size:13px;
+    font-family:ariel;
+    text-align:center;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin: 0px 60px 5px 250px;
+
+}
+    
+ul{
+    color: black;
+    padding-top:2px;
+    padding-right:20px;
+    padding-bottom:2px;
+    padding-left:20px;
+    margin-top:40px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:20px;
+    font-size:16px;
+    font-family: ,Lobster;
+text-align: justify;
+}
+
+ol{
+    color: black;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin-top:40px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:20px;
+    font-size:16px;
+    font-family: ,Lobster;
+text-align: justify;
+}
+
+div{
+    background-color:#EFF8F3;
+    padding-top: 2px;
+    padding-right: 20px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    margin-top:40px;
+    margin-right:180px;
+    margin-left:180px;
+    margin-bottom:20px;}
+}
+
+
+
+}
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
